@@ -1,0 +1,35 @@
+baseURL = "hrittwik.github.io"
+# include content marked as draft
+buildDrafts = false
+# include content with publishdate in the future
+buildFuture = false
+# include content already expired
+buildExpired = false
+# enable this to make all relative URLs relative to content root. Note that this does not affect absolute URLs.
+relativeURLs = true
+disableRSS = true
+enableRobotsTXT = true
+editor = "nano"
+languageCode = "en"
+language = "en"
+theme = "vncnt-hugo"
+title = "Hrittwik Barua · Landing Page"
+
+[permalinks]
+  fixed = ":title/"
+  posts = "posts/:slug/"
+
+[params]
+  author = "Hrittwik Barua"
+  email = "hrittwik@example.com"
+  description = "Landing Page"
+  bio = "Hello there.  \nI'm a software developer and open-source enthusiast."
+  avatar = "img/hrittwik.png"
+  favicon = "img/hrittwik.png"
+  error404 = "There is no such page."
+
+  [params.contact]
+    github = "https://github.com/hrittwik"
+    twitter = "https://twitter.com/hrittwik"
+    linkedin = "https://www.linkedin.com/in/hrittwik-barua/"
+    stack-overflow = "https://stackoverflow.com/users/2775470/hrittwik?tab=profile"
