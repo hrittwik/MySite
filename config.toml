@@ -13,7 +13,7 @@ editor = "nano"
 languageCode = "en"
 language = "en"
 theme = "vncnt-hugo"
-title = "Hrittwik Barua · Landing Page"
+title = "Hrittwik Barua"
 
 [permalinks]
   fixed = ":title/"
@@ -23,9 +23,9 @@ title = "Hrittwik Barua · Landing Page"
   author = "Hrittwik Barua"
   email = "hrittwik@example.com"
   description = "Landing Page"
-  bio = "Hello there.  \nI'm a software developer and open-source enthusiast."
-  avatar = "img/hrittwik.png"
-  favicon = "img/hrittwik.png"
+  bio = "Hello there.  \nI'm a software developer and open-source enthusiast. Click on the links below to find more about me!"
+  avatar = "img/hrittwik.jpg"
+  favicon = "img/hrittwik.jpg"
   error404 = "There is no such page."
 
   [params.contact]
